@@ -1,1 +1,20 @@
+/* icon-library.css */
+
+/* Basic styling for icons */
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor; /* Makes icon inherit the text color */
+}
+
+/* Custom size and color */
+.icon.arrow-up {
+  width: 2em;
+  height: 2em;
+}
+
+.icon.arrow-up:hover {
+  fill: red; /* Change color on hover */
+}
 
